@@ -1,4 +1,27 @@
-.img-profile{
-    max-width: 400px;
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+
+.img-profile {
+    background-image: url("assets/me-tall.jpeg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: inset 0px 125px 105px 48px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: inset 0px 125px 105px 48px rgba(0, 0, 0, 0.48);
+    box-shadow: inset 0px 125px 105px 48px rgba(0, 0, 0, 0.48);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.img-profile>h3 {
+    margin-top: 2.5em;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.img-profile>span {
+    font-size: 24px;
+    margin-top: 0.5em;
+    font-weight: 500;
+    color: #FFFFFF;
 }
